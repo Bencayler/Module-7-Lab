@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07d878c3-f1c9-4877-bab7-cd6fa6e9c5a2" name="Changes" comment="Initial Commit for Version Control">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/sdccd/cisc191/IOLabTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/sdccd/cisc191/IOLab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/sdccd/cisc191/IOLabTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/TestResults.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647376630867</updated>
-      <workItem from="1647376632011" duration="1549000" />
+      <workItem from="1647376632011" duration="1660000" />
+      <workItem from="1647379596013" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for Version Control">
       <created>1647377296748</created>
@@ -113,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647377296748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit for Version Control">
+      <created>1647378214272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647378214272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit for Version Control">
+      <created>1647378246405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647378246405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
