@@ -14,7 +14,7 @@ class IOLabTest
     @Test
     void testReadTestResultsExists()
     {
-        String results = IOLab.readTestResults("TestResult.csv");
+        String results = IOLab.readTestResults("src/main/resources/TestResults.csv");
         assertTrue(results.startsWith("Alex,Smith,99,A"));
         assertTrue(results.contains("Jolene,Schmidt,100,A"));
         assertTrue(results.endsWith("Mackinzie,Jensen,86,B"));
@@ -31,11 +31,11 @@ class IOLabTest
     void testAppendTestResults()
     {
         // Note: With each run, a new set of data may be appended to the file
-        IOLab.appendTestResult("NewTestResults.csv", "Julie,Brown,100,A");
-        String results = IOLab.readTestResults("NewTestResults.csv");
+        IOLab.appendTestResult("src/main/resources/NewTestResults.csv", "Julie,Brown,100,A");
+        String results = IOLab.readTestResults("src/main/resources/NewTestResults.csv");
         assertTrue(results.endsWith("Julie,Brown,100,A"));
-        IOLab.appendTestResult("NewTestResults.csv", "Davy,Jones,30,F");
-        results = IOLab.readTestResults("NewTestResults.csv");
+        IOLab.appendTestResult("src/main/resources/NewTestResults.csv", "Davy,Jones,30,F");
+        results = IOLab.readTestResults("src/main/resources/NewTestResults.csv");
         assertTrue(results.contains("Julie,Brown,100,A"));
         assertTrue(results.endsWith("Davy,Jones,30,F"));
     }
