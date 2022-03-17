@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07d878c3-f1c9-4877-bab7-cd6fa6e9c5a2" name="Changes" comment="Initial Commit for Version Control">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="07d878c3-f1c9-4877-bab7-cd6fa6e9c5a2" name="Changes" comment="Three of four tests passing. Need to figure out last method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/sdccd/cisc191/IOLabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/sdccd/cisc191/IOLabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/NewTestResults.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NewTestResults.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/sdccd/cisc191/IOLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sdccd/cisc191/IOLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/sdccd/cisc191/IOLabTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/sdccd/cisc191/IOLabTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -56,12 +46,15 @@
     </option>
   </component>
   <component name="ProjectId" id="26RBgDH0FdeRggPXQQ0oGYPMV9S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -72,7 +65,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.IOLabTest">
+  <component name="RunManager" selected="Application.IOLab">
     <configuration name="IOLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.sdccd.cisc191.IOLab" />
       <module name="Module 7 Lab" />
@@ -116,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IOLabTest" />
         <item itemvalue="Application.IOLab" />
+        <item itemvalue="JUnit.IOLabTest" />
         <item itemvalue="Application.MAin" />
       </list>
     </recent_temporary>
@@ -135,7 +128,9 @@
       <workItem from="1647398332545" duration="93000" />
       <workItem from="1647460693652" duration="1394000" />
       <workItem from="1647462106510" duration="261000" />
-      <workItem from="1647462381226" duration="4369000" />
+      <workItem from="1647462381226" duration="6101000" />
+      <workItem from="1647471120275" duration="5000" />
+      <workItem from="1647475144265" duration="3887000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for Version Control">
       <created>1647377296748</created>
@@ -158,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647378246405</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Three of four tests passing. Need to figure out last method">
+      <created>1647467160231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647467160231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +195,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit for Version Control" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit for Version Control" />
+    <MESSAGE value="Three of four tests passing. Need to figure out last method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Three of four tests passing. Need to figure out last method" />
   </component>
 </project>

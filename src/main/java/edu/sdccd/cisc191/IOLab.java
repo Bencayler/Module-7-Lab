@@ -1,6 +1,7 @@
 package edu.sdccd.cisc191;
 
 import java.io.*;
+import java.net.*;
 import java.util.stream.StreamSupport;
 
 /**
@@ -14,13 +15,9 @@ public class IOLab
 {
     public static void main(String[] args) {
         System.out.println("Hello World");
-        // System.out.println(readTestResults("src/main/resources/TestResults.csv"));
         readTestResults("src/main/resources/TestResults.csv");
-        appendTestResult("src/main/resources/NewTestResults.csv", "Julie, Brown; Fuck you");
-        appendTestResult("src/main/resources/NewTestResults.csv", "Valteri, it's James.");
-
+        appendTestResult("src/main/resources/NewTestResults.csv", "Woooorking thank you");
         readTestResults("src/main/resources/NewTestResults.csv");
-        // readTestResults("Users//benjamincayler//IdeaProjects//Module-7-Lab//src//main//resources//TestResults.csv");
     }
 
     public static String readTestResults(String s) {
@@ -52,6 +49,23 @@ public class IOLab
     }
 
     public static String readDateTime(String s) {
-        return "";
+        try {
+            URL url = new URL("http://worldtimeapi.org/api/ip");
+            BufferedReader input = new BufferedReader(new InputStreamReader(url.openStream()));
+            String accumulator = "";
+            String test;
+            accumulator = input.readLine();
+//            while ((test = input.readLine()) != null) {
+//                accumulator += test;
+//            }
+
+            System.out.println(accumulator);
+            input.close();
+            return accumulator;
+        }
+        catch (Exception ex) {
+            System.out.println("ERROR");
+            return "";
+        }
     }
 }
