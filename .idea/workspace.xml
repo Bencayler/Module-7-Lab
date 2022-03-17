@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07d878c3-f1c9-4877-bab7-cd6fa6e9c5a2" name="Changes" comment="Three of four tests passing. Need to figure out last method">
+    <list default="true" id="07d878c3-f1c9-4877-bab7-cd6fa6e9c5a2" name="Changes" comment="Update to readDateTime method. I don't fully understand where it is going wrong and the URL isn't being fully read and written to a String variable.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/sdccd/cisc191/IOLab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/NewTestResults.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/NewTestResults.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/sdccd/cisc191/IOLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/sdccd/cisc191/IOLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/sdccd/cisc191/IOLabTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/sdccd/cisc191/IOLabTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IOLab" />
         <item itemvalue="JUnit.IOLabTest" />
+        <item itemvalue="Application.IOLab" />
         <item itemvalue="Application.MAin" />
       </list>
     </recent_temporary>
@@ -130,7 +128,8 @@
       <workItem from="1647462106510" duration="261000" />
       <workItem from="1647462381226" duration="6101000" />
       <workItem from="1647471120275" duration="5000" />
-      <workItem from="1647475144265" duration="3887000" />
+      <workItem from="1647475144265" duration="4207000" />
+      <workItem from="1647537385616" duration="5360000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for Version Control">
       <created>1647377296748</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647467160231</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update to readDateTime method. I don't fully understand where it is going wrong and the URL isn't being fully read and written to a String variable.">
+      <created>1647485788276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647485788276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +204,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit for Version Control" />
     <MESSAGE value="Three of four tests passing. Need to figure out last method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Three of four tests passing. Need to figure out last method" />
+    <MESSAGE value="Update to readDateTime method. I don't fully understand where it is going wrong and the URL isn't being fully read and written to a String variable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update to readDateTime method. I don't fully understand where it is going wrong and the URL isn't being fully read and written to a String variable." />
   </component>
 </project>

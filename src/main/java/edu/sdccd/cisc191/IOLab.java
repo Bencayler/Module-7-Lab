@@ -2,7 +2,7 @@ package edu.sdccd.cisc191;
 
 import java.io.*;
 import java.net.*;
-import java.util.stream.StreamSupport;
+import java.util.Scanner;
 
 /**
  *
@@ -14,10 +14,11 @@ import java.util.stream.StreamSupport;
 public class IOLab
 {
     public static void main(String[] args) {
+        // Hello World print statement to make sure we are running okay top to bottom.
         System.out.println("Hello World");
         readTestResults("src/main/resources/TestResults.csv");
-        appendTestResult("src/main/resources/NewTestResults.csv", "Woooorking thank you");
         readTestResults("src/main/resources/NewTestResults.csv");
+        readDateTime("http://worldtimeapi.org/api/ip");
     }
 
     public static String readTestResults(String s) {
@@ -50,18 +51,22 @@ public class IOLab
 
     public static String readDateTime(String s) {
         try {
-            URL url = new URL("http://worldtimeapi.org/api/ip");
-            BufferedReader input = new BufferedReader(new InputStreamReader(url.openStream()));
-            String accumulator = "";
-            String test;
-            accumulator = input.readLine();
-//            while ((test = input.readLine()) != null) {
-//                accumulator += test;
-//            }
-
-            System.out.println(accumulator);
+            URL url = new URL(s);
+            Scanner input = new Scanner(url.openStream());
+            String test = "";
+            int counter = 0;
+            while (input.hasNext()) {
+                test = input.nextLine();
+                // System.out.println(input.nextLine());
+                System.out.println("Working");
+                counter += 1;
+            }
             input.close();
-            return accumulator;
+            System.out.println(test);
+            test = test.substring(327, 381);
+            System.out.println(test);
+
+            return test;
         }
         catch (Exception ex) {
             System.out.println("ERROR");
