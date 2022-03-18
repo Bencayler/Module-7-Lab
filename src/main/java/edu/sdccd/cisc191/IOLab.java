@@ -54,17 +54,11 @@ public class IOLab
             URL url = new URL(s);
             Scanner input = new Scanner(url.openStream());
             String test = "";
-            int counter = 0;
             while (input.hasNext()) {
                 test = input.nextLine();
-                // System.out.println(input.nextLine());
-                System.out.println("Working");
-                counter += 1;
             }
             input.close();
-            System.out.println(test);
             test = test.substring(327, 381);
-            System.out.println(test);
 
             return test;
         }
